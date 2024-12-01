@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Taxi taxi1 = new Taxi("Taxi1", "A");
+        Taxi taxi1 = new Taxi("Taxi1", 'A');
         Booking booking1 = new Booking('A', 9, 'B');
         
         taxi1.acceptBooking(booking1);
